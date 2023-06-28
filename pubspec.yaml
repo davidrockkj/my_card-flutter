@@ -20,3 +20,18 @@ flutter:
 
   assets:
     - imagens/
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: fontes/Manrope-Bold.ttf
+        - asset: fontes/Manrope-ExtraBold.ttf
+        - asset: fontes/Manrope-ExtraLight.ttf
+        - asset: fontes/Manrope-Light.ttf
+        - asset: fontes/Manrope-Medium.ttf
+        - asset: fontes/Manrope-Regular.ttf
+        - asset: fontes/Manrope-SemiBold.ttf
+        
+    - family: Source Sans
+      fonts:
+        - asset: fontes/SourceSans3-Regular.ttf
