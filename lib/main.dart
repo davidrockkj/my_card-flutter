@@ -69,7 +69,7 @@ class MeuApp extends StatelessWidget {
                       width: 20.0,
                     ),
                     Text(
-                      '+55 89 98133-0041',
+                      '+55 99 99999-9999',
                       style: TextStyle(
                           color: Colors.white,
                           fontFamily: 'Source Sans',
@@ -79,36 +79,31 @@ class MeuApp extends StatelessWidget {
                 ),
               ),
               // EMAIL --------------------------
-              Container(
-                height: 60.0,
-                margin: const EdgeInsets.fromLTRB(60.0, 10.0, 60.0, 20.0),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: Colors.indigo[800],
+              Card(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(100),
+                  //set border radius more than 50% of height and width to make circle
                 ),
-                child: const Row(
-                  children: [
-                    Padding(
-                      padding: EdgeInsets.symmetric(
-                        horizontal: 10.0
-                      ),
-                    ),
+                color: Colors.indigo[800],
+                margin: const EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 60.0,
+                ),
+                child: const ListTile(
+                  leading: 
                     Icon(
                       Icons.mail_rounded,
                       color: Colors.white,
                       size: 25.0,
                     ),
-                    SizedBox(
-                      width: 20.0,
-                    ),
+                  title:
                     Text(
-                      'davidrockkj@gmail.com',
+                      'email@gmail.com',
                       style: TextStyle(
-                          color: Colors.white,
-                          fontFamily: 'Source Sans',
-                          fontSize: 20.0),
-                    )
-                  ],
+                      color: Colors.white,
+                      fontFamily: 'Source Sans',
+                      fontSize: 20.0),
+                    ),
                 ),
               ),
             ],
