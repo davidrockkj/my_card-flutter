@@ -58,7 +58,7 @@ class MeuApp extends StatelessWidget {
                 child: const Divider(
                   height: 20,
                   // thickness: 5,
-                  color: Colors.white,
+                  color: Colors.red,
                 ),
               ),
               // TELEFONE --------------------------
